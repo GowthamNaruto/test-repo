@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import { Routes, Route, NavLink } from 'react-router-dom';
+import Home from './containers/Home/Home';
+import CentralBank from './containers/CentralBank/CentralBank';
+// import CentralBank from ''
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" exact component={Home} />
+      <Route path="/central-bank" component={CentralBank} />
+    </Routes>
   );
 }
 
