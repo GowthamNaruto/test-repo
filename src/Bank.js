@@ -22,7 +22,8 @@ function Bank() {
             <div className="p-3 m-1 flex align-items-center justify-content-center">
               <div>
                 <div className="text-900 font-medium text-xl">
-                  Go to Central Bank
+                  Go to Central Bank Go to Central Bank Go to Central Bank Go to
+                  Central Bank
                 </div>
               </div>
             </div>

@@ -13,6 +13,9 @@ function App() {
     <Routes>
       <Route path="/" exact component={Home} />
       <Route path="/central-bank" component={CentralBank} />
+      <Route path="/central-bank" component={CentralBank} />
+      <Route path="/central-bank" component={CentralBank} />
+      <Route path="/central-bank" component={CentralBank} />
     </Routes>
   );
 }
